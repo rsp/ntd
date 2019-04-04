@@ -21,12 +21,33 @@ built with V8 and ~~Go~~ Rust
 
 ---
 
+# Architecture
+
+Node = Server-side JS using V8 + libuv in C++
+Deno = Server-side TS using V8 + Tokio in Rust
+
+---
+
+# Frameworks
+
+- Fen (a simple Typescript web framework for deno)
+
+---
+
 Creative feedback 
 
 "Will i like it ? no, i don't like it as i don't like you."
 
 <small>
 Please close this project for now. (Issue #53)<br>
+https://github.com/denoland/deno/issues/53
+</small>
+
+---
+
+![](deno-issue-53.png)
+
+<small>
 https://github.com/denoland/deno/issues/53
 </small>
 
@@ -39,15 +60,7 @@ https://github.com/denoland/deno/issues/205
 
 ---
 
-Alex Hultman, author of µWebSockets - https://github.com/uNetworking
-
----
-
-![](deno-issue-53.png)
-
-<small>
-https://github.com/denoland/deno/issues/53
-</small>
+Alex Hultman, author of µWebSockets - https://github.com/uNetworking - gets banned
 
 ---
 
@@ -61,6 +74,26 @@ https://github.com/denoland/deno/issues/53
 The scripts above currently just scrape the GitHub releases page:<br>
 https://github.com/denoland/deno/releases
 </small>
+
+---
+
+Suggestion: Look into porting to Rust and using Tokio (Issue #205)<br>
+https://github.com/denoland/deno/issues/205
+
+---
+
+Why it *WILL* get traction
+
+1. Ryan Dahl (his previous project was and still is an amazing success)
+2. V8 (Google will promote it)
+3. TypeScript (Microsoft will propomte it)
+4. Rust (Mozilla will promote it)
+
+---
+
+# Articles
+
+- [Fen (a simple Typescript web framework for deno)](https://medium.com/@mxz961002/fen-a-simple-typescript-web-framework-for-deno-13cfe84d270c) by 明多牧
 
 ---
 
