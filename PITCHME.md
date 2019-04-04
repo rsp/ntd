@@ -82,12 +82,28 @@ https://github.com/denoland/deno/issues/205
 
 ---
 
+# Current state
+
+Not ready for production yet
+
+<small>
+(which is the best time to get involved)
+</small>
+
+---
+
 Why it *WILL* get traction
 
 1. Ryan Dahl (his previous project was and still is an amazing success)
 2. V8 (Google will promote it)
-3. TypeScript (Microsoft will propomte it)
+3. TypeScript (Microsoft will promote it)
 4. Rust (Mozilla will promote it)
+
+---
+
+My prediction
+
+The industry will ignore it until it is "ready" 
 
 ---
 
