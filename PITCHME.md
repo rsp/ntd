@@ -34,6 +34,14 @@ For the adventurous:
 
 ---
 
+Modules Registry
+
+https://deno.land/x/
+
+This is a redirection service
+
+---
+
 Recommended talks and lectures
 
 <small>
