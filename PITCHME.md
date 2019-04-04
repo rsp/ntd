@@ -26,16 +26,14 @@ Creative feedback
 "Will i like it ? no, i don't like it as i don't like you."
 
 <small>
-Please close this project for now. (Issue #53)
-
+Please close this project for now. (Issue #53)<br>
 https://github.com/denoland/deno/issues/53
 </small>
 
 ---
 
 <small>
-Suggestion: Look into porting to Rust and using Tokio (Issue #205)
-
+Suggestion: Look into porting to Rust and using Tokio (Issue #205)<br>
 https://github.com/denoland/deno/issues/205
 </small>
 
