@@ -69,6 +69,7 @@ Recommended talks and lectures
 
 Resources
 
+<small>
 - https://denoland.org/
 - https://deno.land/
 - https://deno.land/manual.html
@@ -78,6 +79,8 @@ Resources
 - https://github.com/denoland/deno
 - https://github.com/denoland/deno/issues
 - https://github.com/denoland/deno/pulls
+
+</small>
 
 ---
 
