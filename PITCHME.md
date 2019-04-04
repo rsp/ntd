@@ -75,11 +75,10 @@ https://deno.land/x/
 This is a redirection service
 
 <small>
-E.g. this insyall script URL:
-- https://deno.land/x/install/install.sh
-
-redirects to:
-- https://raw.githubusercontent.com/denoland/deno_install/master/install.sh
+E.g. this insyall script URL:<br>
+https://deno.land/x/install/install.sh<br>
+redirects to:<br>
+https://raw.githubusercontent.com/denoland/deno_install/master/install.sh
 </small>
 
 ---
@@ -87,11 +86,10 @@ redirects to:
 Recommended talks and lectures
 
 <small>
-- [Ryan Dahl: Original Node.js presentation (2009)](https://www.youtube.com/watch?v=ztspvPYybIY)
-- [History of Node.js by Ryan Dahl (2011)](https://www.youtube.com/watch?v=SAc0vQCC6UQ)
-- [10 Things I Regret About Node.js by Ryan Dahl (2018)](https://www.youtube.com/watch?v=M3BM9TB-8yA)
-- [Deno, A New Server-Side Runtime by Ryan Dahl (2018)](https://www.youtube.com/watch?v=FlTG0UXRAkE)
-
+[Ryan Dahl: Original Node.js presentation (2009)](https://www.youtube.com/watch?v=ztspvPYybIY)<br>
+[History of Node.js by Ryan Dahl (2011)](https://www.youtube.com/watch?v=SAc0vQCC6UQ)<br>
+[10 Things I Regret About Node.js by Ryan Dahl (2018)](https://www.youtube.com/watch?v=M3BM9TB-8yA)<br>
+[Deno, A New Server-Side Runtime by Ryan Dahl (2018)](https://www.youtube.com/watch?v=FlTG0UXRAkE)
 </small>
 
 ---
