@@ -23,7 +23,8 @@ built with V8 and ~~Go~~ Rust
 
 # Architecture
 
-Node = Server-side JS using V8 + libuv in C++
+Node = Server-side JS using V8 + libuv in C++<br>
+~~Deno = Server-side TS using V8 + ... in Go~~<br>
 Deno = Server-side TS using V8 + Tokio in Rust
 
 ---
