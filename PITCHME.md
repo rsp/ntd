@@ -26,10 +26,15 @@ Installation:
 <small>
 For the adventurous:
 
-- `curl -fsSL https://deno.land/x/install/install.sh | sh` (Bourne Shell)
-- `iwr https://deno.land/x/install/install.ps1 | iex` (PowerShell)
-- more options: https://github.com/denoland/deno_install
+- Bourne Shell:
+  - `curl -fsSL https://deno.land/x/install/install.sh | sh`
+- PowerShell:
+  - `iwr https://deno.land/x/install/install.ps1 | iex`
+- more options:
+  - https://github.com/denoland/deno_install
 
+The script above currently just scrapes the GitHub releases page:
+- https://github.com/denoland/deno/releases
 </small>
 
 ---
@@ -39,6 +44,14 @@ Modules Registry
 https://deno.land/x/
 
 This is a redirection service
+
+<small>
+E.g. this insyall script URL:
+- https://deno.land/x/install/install.sh
+
+redirects to:
+- https://raw.githubusercontent.com/denoland/deno_install/master/install.sh
+</small>
 
 ---
 
