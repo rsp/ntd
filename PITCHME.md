@@ -103,7 +103,12 @@ Why it *WILL* get traction
 
 My prediction
 
-The industry will ignore it until it is "ready" 
+The industry will ignore it until it is "ready" and then:
+
+- startups who provide infrastructure and tooling will get business
+- people who used it "before it was cool" will get more job offers that they can read
+
+(like it is now with Node.js)
 
 ---
 
