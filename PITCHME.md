@@ -21,7 +21,42 @@ built with V8 and ~~Go~~ Rust
 
 ---
 
-...
+Installation:
+
+<small>
+For the adventurous:
+
+- `curl -fsSL https://deno.land/x/install/install.sh | sh` (Bourne Shell)
+- `iwr https://deno.land/x/install/install.ps1 | iex` (PowerShell)
+- more options: https://github.com/denoland/deno_install
+
+</small>
+
+---
+
+Recommended talks and lectures
+
+<small>
+- [Ryan Dahl: Original Node.js presentation (2009)](https://www.youtube.com/watch?v=ztspvPYybIY)
+- [History of Node.js by Ryan Dahl (2011)](https://www.youtube.com/watch?v=SAc0vQCC6UQ)
+- [10 Things I Regret About Node.js by Ryan Dahl (2018)](https://www.youtube.com/watch?v=M3BM9TB-8yA)
+- [Deno, A New Server-Side Runtime by Ryan Dahl (2018)](https://www.youtube.com/watch?v=FlTG0UXRAkE)
+
+</small>
+
+---
+
+Resources
+
+- https://denoland.org/
+- https://deno.land/
+- https://deno.land/manual.html
+- https://deno.land/typedoc/
+- https://twitter.com/deno_land
+- https://github.com/denoland/deno/releases
+- https://github.com/denoland/deno
+- https://github.com/denoland/deno/issues
+- https://github.com/denoland/deno/pulls
 
 ---
 
