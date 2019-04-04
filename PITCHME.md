@@ -51,19 +51,15 @@ https://github.com/denoland/deno/issues/53
 
 ---
 
-Installation:
-
-<small>
-For the adventurous:
+# Installation<br>For the adventurous
 
 `curl -fsSL https://deno.land/x/install/install.sh | sh`
 
 `iwr https://deno.land/x/install/install.ps1 | iex`
 
-The scripts above currently just scrapes the GitHub releases page:
-
+<small>
+The scripts above currently just scrape the GitHub releases page:<br>
 https://github.com/denoland/deno/releases
-
 </small>
 
 ---
@@ -75,7 +71,7 @@ https://deno.land/x/
 This is a redirection service
 
 <small>
-E.g. this insyall script URL:<br>
+E.g. this install script URL:<br>
 https://deno.land/x/install/install.sh<br>
 redirects to:<br>
 https://raw.githubusercontent.com/denoland/deno_install/master/install.sh
@@ -83,13 +79,13 @@ https://raw.githubusercontent.com/denoland/deno_install/master/install.sh
 
 ---
 
-Recommended talks and lectures
+Recommended talks
 
 <small>
-[Ryan Dahl: Original Node.js presentation (2009)](https://www.youtube.com/watch?v=ztspvPYybIY)<br>
-[History of Node.js by Ryan Dahl (2011)](https://www.youtube.com/watch?v=SAc0vQCC6UQ)<br>
-[10 Things I Regret About Node.js by Ryan Dahl (2018)](https://www.youtube.com/watch?v=M3BM9TB-8yA)<br>
-[Deno, A New Server-Side Runtime by Ryan Dahl (2018)](https://www.youtube.com/watch?v=FlTG0UXRAkE)
+- [Ryan Dahl: Original Node.js presentation (2009)](https://www.youtube.com/watch?v=ztspvPYybIY)
+- [History of Node.js by Ryan Dahl (2011)](https://www.youtube.com/watch?v=SAc0vQCC6UQ)
+- [10 Things I Regret About Node.js by Ryan Dahl (2018)](https://www.youtube.com/watch?v=M3BM9TB-8yA)
+- [Deno, A New Server-Side Runtime by Ryan Dahl (2018)](https://www.youtube.com/watch?v=FlTG0UXRAkE)
 </small>
 
 ---
