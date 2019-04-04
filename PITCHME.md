@@ -21,6 +21,16 @@ built with V8 and ~~Go~~ Rust
 
 ---
 
+Hard beginnings
+
+![](deno-issue-53.png)
+
+<small>
+https://github.com/denoland/deno/issues/53
+</small>
+
+---
+
 Installation:
 
 <small>
@@ -74,9 +84,10 @@ Resources
 - https://deno.land/
 - https://deno.land/manual.html
 - https://deno.land/typedoc/
+- https://deno.land/x/
 - https://twitter.com/deno_land
-- https://github.com/denoland/deno/releases
 - https://github.com/denoland/deno
+- https://github.com/denoland/deno/releases
 - https://github.com/denoland/deno/issues
 - https://github.com/denoland/deno/pulls
 
