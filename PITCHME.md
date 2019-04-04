@@ -21,7 +21,29 @@ built with V8 and ~~Go~~ Rust
 
 ---
 
-Hard beginnings
+Creative feedback 
+
+"Will i like it ? no, i don't like it as i don't like you."
+
+<small>
+Please close this project for now. (Issue #53)
+
+https://github.com/denoland/deno/issues/53
+</small>
+
+---
+
+<small>
+Suggestion: Look into porting to Rust and using Tokio (Issue #205)
+
+https://github.com/denoland/deno/issues/205
+</small>
+
+---
+
+Alex Hultman, author of µWebSockets - https://github.com/uNetworking
+
+---
 
 ![](deno-issue-53.png)
 
