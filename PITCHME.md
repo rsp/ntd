@@ -14,7 +14,7 @@ Enough about me
 
 ---
 
-# From Node.js to Deno
+# From Node.js<br>to Deno
 
 JavaScript/TypeScript runtime<br>
 built with V8 and ~~Go~~ Rust
