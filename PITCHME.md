@@ -36,15 +36,14 @@ Installation:
 <small>
 For the adventurous:
 
-- Bourne Shell:
-  - `curl -fsSL https://deno.land/x/install/install.sh | sh`
-- PowerShell:
-  - `iwr https://deno.land/x/install/install.ps1 | iex`
-- more options:
-  - https://github.com/denoland/deno_install
+`curl -fsSL https://deno.land/x/install/install.sh | sh`
 
-The script above currently just scrapes the GitHub releases page:
-- https://github.com/denoland/deno/releases
+`iwr https://deno.land/x/install/install.ps1 | iex`
+
+The scripts above currently just scrapes the GitHub releases page:
+
+https://github.com/denoland/deno/releases
+
 </small>
 
 ---
