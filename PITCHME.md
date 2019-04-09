@@ -119,6 +119,25 @@ Databases
 
 ---
 
+Packages
+
+- https://deno.land/x/
+- https://denopkg.com/
+- https://deno.sh/
+
+---
+
+Netlify
+
+_headers:
+
+```
+/*.ts
+  Content-Type: application/x-typescript
+```
+
+---
+
 Creative feedback 
 
 "Will i like it ? no, i don't like it as i don't like you."
