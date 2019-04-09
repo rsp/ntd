@@ -1,5 +1,3 @@
-theme-override : style.css
-
 ![From Node.js to Deno](title.png)
 
 ---
