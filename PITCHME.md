@@ -23,8 +23,8 @@ built with V8 and ~~Go~~ Rust
 
 # Architecture
 
-Node = Server-side JS using V8 + libuv in C++<br>
-~~Deno = Server-side TS using V8 + ... in Go~~<br>
+Node = Server-side JS using V8 + libuv in C++
+
 Deno = Server-side TS using V8 + Tokio in Rust
 
 ---
@@ -32,6 +32,83 @@ Deno = Server-side TS using V8 + Tokio in Rust
 # Frameworks
 
 - Fen (a simple Typescript web framework for deno)
+
+---
+
+求不要更新了，老子学不动了 (Issue #25)<br>
+https://github.com/denoland/deno/issues/25
+
+没钱用 肯定要学啊 不学就没有钱用 (Issue #27)<br>
+https://github.com/denoland/deno/issues/27
+
+your code very six !!! (Issue #31)<br>
+https://github.com/denoland/deno/issues/31
+
+
+---
+
+Going from Go to Rust was proposed very early
+
+<small>
+Deno vs Node.js (Issue #11)<br>
+https://github.com/denoland/deno/issues/11
+
+拥抱GO 得永生 (Issue #34)<br>
+(translation: Embrace GO for eternal life)<br>
+https://github.com/denoland/deno/issues/34
+
+Suggestion: Look into porting to Rust and using Tokio (Issue #205)<br>
+(interesting discussion)
+https://github.com/denoland/deno/issues/205
+</small>
+
+
+---
+
+求你们不要在学了 我跟不上了 我也不想学了<br>
+[translation: I don’t want to learn, I can’t keep up, I don’t want to learn.]
+
+
+
+Here is NOT the chatroom, behavior yourself!<br>
+请不要再灌水了，中国开发者的脸都被你们丢光了。<br>
+[translation: Please don't pour any more water. The faces of Chinese developers have been lost by you.]
+
+https://github.com/denoland/deno/issues/27<br>
+
+---
+
+Deno Core
+
+https://github.com/denoland/deno ![GitHub stars](https://img.shields.io/github/stars/denoland/deno.svg?style=social)
+
+Deno Standard Modules
+
+https://github.com/denoland/deno_std ![GitHub stars](https://img.shields.io/github/stars/denoland/deno_std.svg?style=social)
+
+---
+
+Frameworks
+
+- https://github.com/denoland/deno_std/tree/master/http ![GitHub stars](https://img.shields.io/github/stars/denoland/deno_std.svg?style=social)
+- https://github.com/zhmushan/abc ![GitHub stars](https://img.shields.io/github/stars/zhmushan/abc.svg?style=social)
+- https://github.com/fen-land/deno-fen ![GitHub stars](https://img.shields.io/github/stars/fen-land/deno-fen.svg?style=social)
+- https://github.com/syumai/dinatra ![GitHub stars](https://img.shields.io/github/stars/syumai/dinatra.svg?style=social)
+- https://github.com/jinjor/deno-playground/tree/master/expressive ![GitHub stars](https://img.shields.io/github/stars/jinjor/deno-playground.svg?style=social)
+- https://github.com/oakserver/oak ![GitHub stars](https://img.shields.io/github/stars/oakserver/oak.svg?style=social)
+- https://github.com/sholladay/pogo ![GitHub stars](https://img.shields.io/github/stars/sholladay/pogo.svg?style=social)
+
+---
+
+Databases
+
+https://github.com/manyuanrong/deno_mysql ![GitHub stars](https://img.shields.io/github/stars/manyuanrong/deno_mysql.svg?style=social)
+
+https://github.com/bartlomieju/deno-postgres ![GitHub stars](https://img.shields.io/github/stars/bartlomieju/deno-postgres.svg?style=social)
+
+https://github.com/keroxp/deno-redis ![GitHub stars](https://img.shields.io/github/stars/keroxp/deno-redis.svg?style=social)
+
+[Deno Simple Orm](https://github.com/manyuanrong/dso) ![GitHub stars](https://img.shields.io/github/stars/manyuanrong/dso.svg?style=social)
 
 ---
 
@@ -46,6 +123,12 @@ https://github.com/denoland/deno/issues/53
 
 ---
 
+???
+
+https://cnodejs.org/topic/5b0fb21b57137f22415c47c8
+
+---
+
 ![](deno-issue-53.png)
 
 <small>
@@ -54,10 +137,7 @@ https://github.com/denoland/deno/issues/53
 
 ---
 
-<small>
-Suggestion: Look into porting to Rust and using Tokio (Issue #205)<br>
-https://github.com/denoland/deno/issues/205
-</small>
+
 
 ---
 
