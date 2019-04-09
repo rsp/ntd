@@ -29,6 +29,16 @@ Deno = Server-side TS using V8 + Tokio in Rust
 
 ---
 
+GitHub:
+- [nodejs/node](https://github.com/nodejs/node) <img alt="GitHub stars" src="https://img.shields.io/github/stars/nodejs/node.svg?style=social" class="stars" height="40" border="0">
+- [denoland/deno](https://github.com/denoland/deno) <img alt="GitHub stars" src="https://img.shields.io/github/stars/denoland/deno.svg?style=social" class="stars" height="40" border="0">
+
+Stack Overflow:
+- [Questions tagged 'node.js'](https://stackoverflow.com/questions/tagged/node.js): 270,111
+- [Questions tagged 'deno'](https://stackoverflow.com/questions/tagged/deno): 9
+
+---
+
 # Frameworks
 
 - Fen (a simple Typescript web framework for deno)
@@ -102,13 +112,10 @@ Frameworks
 
 Databases
 
-[deno-redis](https://github.com/keroxp/deno-redis) by Yusuke Sakurai (Japan) <img alt="GitHub stars" src="https://img.shields.io/github/stars/keroxp/deno-redis.svg?style=social" class="stars" height="40" border="0">
-
-[deno-postgres](https://github.com/bartlomieju/deno-postgres) by Bartek Iwańczuk (Poland) <img alt="GitHub stars" src="https://img.shields.io/github/stars/bartlomieju/deno-postgres.svg?style=social" class="stars" height="40" border="0">
-
-[deno_mysql](https://github.com/manyuanrong/deno_mysql) by EnokMan (China) <img alt="GitHub stars" src="https://img.shields.io/github/stars/manyuanrong/deno_mysql.svg?style=social" class="stars" height="40" border="0">
-
-[Deno Simple Orm](https://github.com/manyuanrong/dso) by EnokMan (China) <img alt="GitHub stars" src="https://img.shields.io/github/stars/manyuanrong/dso.svg?style=social" class="stars" height="40" border="0">
+- [deno-redis](https://github.com/keroxp/deno-redis) by Yusuke Sakurai (Japan) <img alt="GitHub stars" src="https://img.shields.io/github/stars/keroxp/deno-redis.svg?style=social" class="stars" height="40" border="0">
+- [deno-postgres](https://github.com/bartlomieju/deno-postgres) by Bartek Iwańczuk (Poland) <img alt="GitHub stars" src="https://img.shields.io/github/stars/bartlomieju/deno-postgres.svg?style=social" class="stars" height="40" border="0">
+- [deno_mysql](https://github.com/manyuanrong/deno_mysql) by EnokMan (China) <img alt="GitHub stars" src="https://img.shields.io/github/stars/manyuanrong/deno_mysql.svg?style=social" class="stars" height="40" border="0">
+- [Deno Simple Orm](https://github.com/manyuanrong/dso) by EnokMan (China) <img alt="GitHub stars" src="https://img.shields.io/github/stars/manyuanrong/dso.svg?style=social" class="stars" height="40" border="0">
 
 ---
 
