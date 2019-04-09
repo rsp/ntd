@@ -80,35 +80,37 @@ https://github.com/denoland/deno/issues/27<br>
 
 Deno Core
 
-https://github.com/denoland/deno ![GitHub stars](https://img.shields.io/github/stars/denoland/deno.svg?style=social)
+https://github.com/denoland/deno <img alt="GitHub stars" src="https://img.shields.io/github/stars/denoland/deno.svg?style=social" height="40">
 
 Deno Standard Modules
 
-https://github.com/denoland/deno_std ![GitHub stars](https://img.shields.io/github/stars/denoland/deno_std.svg?style=social)
+https://github.com/denoland/deno_std <img alt="GitHub stars" src="https://img.shields.io/github/stars/denoland/deno_std.svg?style=social" height="40">
 
 ---
 
 Frameworks
 
-- https://github.com/denoland/deno_std/tree/master/http ![GitHub stars](https://img.shields.io/github/stars/denoland/deno_std.svg?style=social)
-- https://github.com/zhmushan/abc ![GitHub stars](https://img.shields.io/github/stars/zhmushan/abc.svg?style=social)
-- https://github.com/fen-land/deno-fen ![GitHub stars](https://img.shields.io/github/stars/fen-land/deno-fen.svg?style=social)
-- https://github.com/syumai/dinatra ![GitHub stars](https://img.shields.io/github/stars/syumai/dinatra.svg?style=social)
-- https://github.com/jinjor/deno-playground/tree/master/expressive ![GitHub stars](https://img.shields.io/github/stars/jinjor/deno-playground.svg?style=social)
-- https://github.com/oakserver/oak ![GitHub stars](https://img.shields.io/github/stars/oakserver/oak.svg?style=social)
-- https://github.com/sholladay/pogo ![GitHub stars](https://img.shields.io/github/stars/sholladay/pogo.svg?style=social)
+- https://github.com/denoland/deno_std/tree/master/http <img alt="GitHub stars" src="https://img.shields.io/github/stars/denoland/deno_std.svg?style=social" height="40">
+- https://github.com/zhmushan/abc <img alt="GitHub stars" src="https://img.shields.io/github/stars/zhmushan/abc.svg?style=social" height="40">
+- https://github.com/fen-land/deno-fen <img alt="GitHub stars" src="https://img.shields.io/github/stars/fen-land/deno-fen.svg?style=social" height="40">
+- https://github.com/syumai/dinatra <img alt="GitHub stars" src="https://img.shields.io/github/stars/syumai/dinatra.svg?style=social" height="40">
+- https://github.com/jinjor/deno-playground/tree/master/expressive <img alt="GitHub stars" src="https://img.shields.io/github/stars/jinjor/deno-playground.svg?style=social" height="40">
+- https://github.com/oakserver/oak <img alt="GitHub stars" src="https://img.shields.io/github/stars/oakserver/oak.svg?style=social" height="40">
+- https://github.com/sholladay/pogo <img alt="GitHub stars" src="https://img.shields.io/github/stars/sholladay/pogo.svg?style=social" height="40">
 
 ---
 
 Databases
 
-https://github.com/manyuanrong/deno_mysql ![GitHub stars](https://img.shields.io/github/stars/manyuanrong/deno_mysql.svg?style=social)
+https://github.com/manyuanrong/deno_mysql <img alt="GitHub stars" src="https://img.shields.io/github/stars/manyuanrong/deno_mysql.svg?style=social" height="40">
 
-https://github.com/bartlomieju/deno-postgres ![GitHub stars](https://img.shields.io/github/stars/bartlomieju/deno-postgres.svg?style=social)
+https://github.com/bartlomieju/deno-postgres <img alt="GitHub stars" src="https://img.shields.io/github/stars/bartlomieju/deno-postgres.svg?style=social" height="40">
 
-https://github.com/keroxp/deno-redis ![GitHub stars](https://img.shields.io/github/stars/keroxp/deno-redis.svg?style=social)
+https://github.com/keroxp/deno-redis <img alt="GitHub stars" src="https://img.shields.io/github/stars/keroxp/deno-redis.svg?style=social" height="40">
 
-[Deno Simple Orm](https://github.com/manyuanrong/dso) ![GitHub stars](https://img.shields.io/github/stars/manyuanrong/dso.svg?style=social)
+[Deno Simple Orm](https://github.com/manyuanrong/dso) <img alt="GitHub stars" src="https://img.shields.io/github/stars/manyuanrong/dso.svg?style=social" height="40">
+
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/zhmushan/abc.svg?style=social">
 
 ---
 
