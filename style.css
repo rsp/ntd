@@ -2,3 +2,6 @@
   border: 0;
   box-shadow: none;
 }
+.stars {
+  vertical-align: baseline;
+}
