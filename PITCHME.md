@@ -174,12 +174,6 @@ X-NF-Request-ID: 7cb5e5c1-27a3-41ef-a352-8bb94064f514-8384722
 
 ---
 
-# Frameworks
-
-- Fen (a simple Typescript web framework for deno)
-
----
-
 求不要更新了，老子学不动了 (Issue #25)<br>
 https://github.com/denoland/deno/issues/25
 
@@ -188,7 +182,6 @@ https://github.com/denoland/deno/issues/27
 
 your code very six !!! (Issue #31)<br>
 https://github.com/denoland/deno/issues/31
-
 
 ---
 
@@ -259,17 +252,6 @@ Packages
 - https://deno.land/x/
 - https://denopkg.com/
 - https://deno.sh/
-
----
-
-Netlify
-
-_headers:
-
-```
-/*.ts
-  Content-Type: application/x-typescript
-```
 
 ---
 
