@@ -293,42 +293,6 @@ Other Packages
 
 ---
 
-# Current state
-
-Not ready for production yet
-
-<small>
-(which is the best time to get involved)
-</small>
-
----
-
-Why it *will* get traction
-
-1. Ryan Dahl (known for Node's amazing success)
-2. V8 (Google will promote it)
-3. TypeScript (Microsoft will promote it)
-4. Rust (Mozilla will promote it)
-
----
-
-My prediction
-
-The industry will ignore it until it is "ready" and then:
-
-1. startups who provide infrastructure and tooling will get business
-2. people who used it "before it was cool" will get more job offers that they can read
-
-(like it is now with Node.js)
-
----
-
-# Articles
-
-- [Fen (a simple Typescript web framework for deno)](https://medium.com/@mxz961002/fen-a-simple-typescript-web-framework-for-deno-13cfe84d270c) by 明多牧
-
----
-
 Modules Registry
 
 https://deno.land/x/
@@ -370,6 +334,36 @@ Consider importing 'https://pocztarski.com/hello' instead.
 
 ---
 
+# Current state
+
+Not ready for production yet
+
+<small>
+(which is the best time to get involved)
+</small>
+
+---
+
+Why it *will* get traction
+
+1. Ryan Dahl (known for Node's amazing success)
+2. V8 (Google will promote it)
+3. TypeScript (Microsoft will promote it)
+4. Rust (Mozilla will promote it)
+
+---
+
+My prediction
+
+The industry will ignore it until it is "ready" and then:
+
+1. startups who provide infrastructure and tooling will get business
+2. people who used it "before it was cool" will get more job offers that they can read
+
+(like it is now with Node.js)
+
+---
+
 Recommended talks
 
 <small>
@@ -378,6 +372,12 @@ Recommended talks
 - [10 Things I Regret About Node.js by Ryan Dahl (2018)](https://www.youtube.com/watch?v=M3BM9TB-8yA)
 - [Deno, A New Server-Side Runtime by Ryan Dahl (2018)](https://www.youtube.com/watch?v=FlTG0UXRAkE)
 </small>
+
+---
+
+# Articles
+
+- [Fen (a simple Typescript web framework for deno)](https://medium.com/@mxz961002/fen-a-simple-typescript-web-framework-for-deno-13cfe84d270c) by 明多牧
 
 ---
 
