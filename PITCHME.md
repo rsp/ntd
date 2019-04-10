@@ -68,7 +68,7 @@ For the adventurous:
 Or get a single file from<br>
 https://github.com/denoland/deno/releases
 
-(The scripts above currently just scrape the GitHub releases page)
+(The scripts above just scrape the GitHub releases page)
 </small>
 
 ---
