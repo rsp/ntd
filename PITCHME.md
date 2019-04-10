@@ -212,6 +212,8 @@ X-NF-Request-ID: 7cb5e5c1-27a3-41ef-a352-8bb94064f514-8384722
 
 ---
 
+# Libraries
+
 Deno Core
 
 https://github.com/denoland/deno <img alt="GitHub stars" src="https://img.shields.io/github/stars/denoland/deno.svg?style=social" class="stars" height="40" border="0">
@@ -243,13 +245,17 @@ Databases
 
 ---
 
-Packages
+Other Packages
 
 - https://deno.land/x/
 - https://denopkg.com/
 - https://deno.sh/
 - can be used directly from GitHub
 - any CDN will work (with correct MIME type)
+
+---
+
+# Deno vs ts-node
 
 ---
 
@@ -263,7 +269,8 @@ For even more details see:
 
 [node-ts-hello adventures](https://gist.github.com/rsp/f7d6aec4f2bbac3de4bc3f88d871cc70)
 
-Conclusion: Deno is 32x faster on startup for a simple example.
+Conclusion:<br>
+Deno is 32x faster on startup for a simple example.
 
 ---
 
