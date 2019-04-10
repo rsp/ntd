@@ -103,7 +103,8 @@ For even more details see:<br>
 [node-ts-hello adventures](https://gist.github.com/rsp/f7d6aec4f2bbac3de4bc3f88d871cc70)
 
 Conclusion:<br>
-Deno is 32x faster on startup for a simple example.
+Deno is 32x faster on startup for a simple example.<br>
+Much easier development.
 
 ---
 
