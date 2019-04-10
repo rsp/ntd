@@ -402,5 +402,4 @@ Slides: https://pocztarski.com/ntd
 
 ## [pocztarski.com](https://pocztarski.com)
 
-"In the original object-oriented systems that were so successful,
-messages aren't commands at all. What they are are desires." - Alan Kay
+“The only thing that matters in software is the experience of the user.” - Ryan Dahl
