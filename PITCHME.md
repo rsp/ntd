@@ -375,12 +375,6 @@ Recommended talks
 
 ---
 
-# Articles
-
-- [Fen (a simple Typescript web framework for deno)](https://medium.com/@mxz961002/fen-a-simple-typescript-web-framework-for-deno-13cfe84d270c) by 明多牧
-
----
-
 Resources
 
 <small>
