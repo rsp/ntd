@@ -72,6 +72,8 @@ https://github.com/denoland/deno/releases
 
 ---
 
+# DENO.LAND
+
 # github.com/denoland/deno/releases
 
 ---
@@ -343,7 +345,9 @@ Cleaning the cache (on Mac)
 rm -rvf ~/Library/Caches/deno
 ```
 
-Using local caches:
+---
+
+Using local caches
 
 ```
 DENO_DIR=`pwd`/.deno deno hi.ts
