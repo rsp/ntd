@@ -74,7 +74,7 @@ https://github.com/denoland/deno/releases
 
 # DENO.LAND
 
-# github.com/denoland/deno/releases
+github.com/denoland/deno/releases
 
 ---
 
