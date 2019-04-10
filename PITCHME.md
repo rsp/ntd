@@ -73,7 +73,7 @@ https://github.com/denoland/deno/releases
 
 ---
 
-It started with Go
+# Started with Go
 
 Porting to Rust was proposed very early
 
@@ -82,8 +82,8 @@ Deno vs Node.js (Issue #11)<br>
 https://github.com/denoland/deno/issues/11
 
 Suggestion: Look into porting to Rust and using Tokio (Issue #205)<br>
+https://github.com/denoland/deno/issues/205 <br>
 (interesting discussion)
-https://github.com/denoland/deno/issues/205
 </small>
 
 ---
