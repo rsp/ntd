@@ -90,7 +90,9 @@ github.com/denoland/deno/releases
 
 No network and filesystem write access by default
 
-`deno --allow-write --allow-net script.ts`
+`deno --allow-write script.ts`
+
+`deno --allow-net script.ts`
 
 ---
 
