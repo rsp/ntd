@@ -289,8 +289,8 @@ My prediction
 
 The industry will ignore it until it is "ready" and then:
 
-- startups who provide infrastructure and tooling will get business
-- people who used it "before it was cool" will get more job offers that they can read
+1. startups who provide infrastructure and tooling will get business
+2. people who used it "before it was cool" will get more job offers that they can read
 
 (like it is now with Node.js)
 
