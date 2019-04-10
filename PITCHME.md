@@ -80,15 +80,17 @@ github.com/denoland/deno/releases
 
 # Running
 
-deno script.ts
+`deno script.ts`
 
-deno https://pocztarski.com/hi.ts
+`deno https://pocztarski.com/hi.ts`
 
 ---
 
 # Security
 
-deno --allow-write --allow-net script.ts
+No network and filesystem write access by default
+
+`deno --allow-write --allow-net script.ts`
 
 ---
 
