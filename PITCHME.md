@@ -60,12 +60,11 @@ Stack Overflow:
 # Installation
 
 <small>
-For the adventurous:
-
+For the adventurous:<br>
 `curl -fsSL https://deno.land/x/install/install.sh | sh`<br>
 `iwr https://deno.land/x/install/install.ps1 | iex`
 
-Or get a single file from<br>
+Or get a single file from:<br>
 https://github.com/denoland/deno/releases
 
 (The scripts above just scrape the GitHub releases page)
@@ -110,13 +109,12 @@ Downloading https://pocztarski.com/hello.ts
 Uncaught Error: Unknown media type for: "https://pocztarski.com/hello.ts" ...
 ```
 
-Ups...
+Oops...
 
 ---
 
 Netlify - No fix
 
-<small>
 ```
 $ curl https://pocztarski.com/hello.ts -I
 HTTP/1.1 200 OK
@@ -132,7 +130,6 @@ Connection: keep-alive
 Server: Netlify
 X-NF-Request-ID: 7cb5e5c1-27a3-41ef-a352-8bb94064f514-7650812
 ```
-</small>
 
 ---
 
@@ -161,7 +158,7 @@ $ cat _headers
 
 ---
 
-# Deno Netlify Fix
+# Netlify - Good Fix
 
 (Working!)
 
@@ -251,6 +248,8 @@ Packages
 - https://deno.land/x/
 - https://denopkg.com/
 - https://deno.sh/
+- can be used directly from GitHub
+- any CDN will work (with correct MIME type)
 
 ---
 
@@ -308,9 +307,9 @@ Modules Registry
 
 https://deno.land/x/
 
-This is a redirection service
-
 <small>
+This is a redirection service - you add modules by PRs
+
 E.g. this install script URL:<br>
 https://deno.land/x/install/install.sh<br>
 redirects to:<br>
