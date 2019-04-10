@@ -57,13 +57,15 @@ Stack Overflow:
 
 ---
 
-# Installation<br>For the adventurous
+# Installation
 
-`curl -fsSL https://deno.land/x/install/install.sh | sh`
+For the adventurous:
 
+`curl -fsSL https://deno.land/x/install/install.sh | sh`<br>
 `iwr https://deno.land/x/install/install.ps1 | iex`
 
-Or get a single file from<br> https://github.com/denoland/deno/releases
+Or get a single file from<br>
+https://github.com/denoland/deno/releases
 
 <small>
 (The scripts above currently just scrape the GitHub releases page)<br>
