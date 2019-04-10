@@ -59,6 +59,7 @@ Stack Overflow:
 
 # Installation
 
+<small>
 For the adventurous:
 
 `curl -fsSL https://deno.land/x/install/install.sh | sh`<br>
@@ -67,8 +68,7 @@ For the adventurous:
 Or get a single file from<br>
 https://github.com/denoland/deno/releases
 
-<small>
-(The scripts above currently just scrape the GitHub releases page)<br>
+(The scripts above currently just scrape the GitHub releases page)
 </small>
 
 ---
