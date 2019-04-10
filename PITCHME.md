@@ -107,7 +107,7 @@ http://doc.trolltech.com/4.1/linguist-manual.html
 
 (Not working!)
 
-```
+```yaml
 $ cat _headers
 
 /*.ts
@@ -120,7 +120,7 @@ $ cat _headers
 
 (Working!)
 
-```
+```yaml
 $ cat _headers 
 
 /*.ts
