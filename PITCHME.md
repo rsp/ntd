@@ -99,7 +99,7 @@ links to:
 
 http://doc.trolltech.com/4.1/linguist-manual.html
 
-(domain parking)
+(domain parking page)
 
 ---
 
@@ -131,7 +131,6 @@ $ cat _headers
 
 Netlify - Headers with bad fix
 
-<small>
 ```
 $ curl https://pocztarski.com/hello.ts -I
 HTTP/1.1 200 OK
@@ -148,13 +147,11 @@ Connection: keep-alive
 Server: Netlify
 X-NF-Request-ID: 7cb5e5c1-27a3-41ef-a352-8bb94064f514-8367887
 ```
-</small>
 
 ---
 
 Netlify - Headers with good fix
 
-<small>
 ```
 $ curl https://pocztarski.com/hello.ts -I
 HTTP/1.1 200 OK
@@ -170,7 +167,6 @@ Connection: keep-alive
 Server: Netlify
 X-NF-Request-ID: 7cb5e5c1-27a3-41ef-a352-8bb94064f514-8384722
 ```
-</small>
 
 ---
 
@@ -205,8 +201,6 @@ https://github.com/denoland/deno/issues/205
 
 求你们不要在学了 我跟不上了 我也不想学了<br>
 [translation: I don’t want to learn, I can’t keep up, I don’t want to learn.]
-
-
 
 Here is NOT the chatroom, behavior yourself!<br>
 请不要再灌水了，中国开发者的脸都被你们丢光了。<br>
@@ -266,6 +260,20 @@ https://github.com/denoland/deno/issues/53
 
 ---
 
+Deno vs ts-node
+
+My answer on Stack Overflow for details:
+
+[deno vs ts-node : what's the difference](https://stackoverflow.com/questions/53428120/deno-vs-ts-node-whats-the-difference/55609763#55609763)
+
+For even more details see:
+
+[node-ts-hello adventures](https://gist.github.com/rsp/f7d6aec4f2bbac3de4bc3f88d871cc70)
+
+Conclusion: Deno is 32x faster on startup for a simple example.
+
+---
+
 ???
 
 https://cnodejs.org/topic/5b0fb21b57137f22415c47c8
@@ -279,8 +287,6 @@ https://github.com/denoland/deno/issues/53
 </small>
 
 ---
-
-
 
 ---
 
@@ -354,6 +360,30 @@ https://deno.land/x/install/install.sh<br>
 redirects to:<br>
 https://raw.githubusercontent.com/denoland/deno_install/master/install.sh
 </small>
+
+---
+
+Cleaning the cache (on Mac)
+
+```
+rm -rvf ~/Library/Caches/deno
+```
+
+Using local caches:
+
+```
+DENO_DIR=`pwd`/.deno deno hi.ts
+```
+
+---
+
+Bug?
+
+```
+DENO_DIR=./.deno deno hi.ts
+error TS2691: An import path cannot end with a '.ts' extension.
+Consider importing 'https://pocztarski.com/hello' instead.
+```
 
 ---
 
