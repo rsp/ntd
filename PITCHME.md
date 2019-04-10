@@ -29,6 +29,14 @@ A secure TypeScript runtime on V8
 
 ---
 
+# Timeline
+
+Node started by Ryan Dahl in 2009
+
+Deno started by Ryan Dahl in 2018
+
+---
+
 # Architecture
 
 Node = Server-side JS with V8 + libuv in C++
@@ -36,6 +44,8 @@ Node = Server-side JS with V8 + libuv in C++
 Deno = Server-side TS with V8 + Tokio in Rust
 
 ---
+
+# Numbers
 
 GitHub:
 - [nodejs/node](https://github.com/nodejs/node) <img alt="GitHub stars" src="https://img.shields.io/github/stars/nodejs/node.svg?style=social" class="stars" height="40" border="0">
@@ -47,6 +57,37 @@ Stack Overflow:
 
 ---
 
+# Installation<br>For the adventurous
+
+`curl -fsSL https://deno.land/x/install/install.sh | sh`
+
+`iwr https://deno.land/x/install/install.ps1 | iex`
+
+Or get a single file from<br> https://github.com/denoland/deno/releases
+
+<small>
+(The scripts above currently just scrape the GitHub releases page)<br>
+</small>
+
+---
+
+It started with Go
+
+Porting to Rust was proposed very early
+
+<small>
+Deno vs Node.js (Issue #11)<br>
+https://github.com/denoland/deno/issues/11
+
+Suggestion: Look into porting to Rust and using Tokio (Issue #205)<br>
+(interesting discussion)
+https://github.com/denoland/deno/issues/205
+</small>
+
+---
+
+# Example
+
 ```
 $ cat hi.ts 
 
@@ -56,6 +97,8 @@ hello();
 ```
 
 ---
+
+# Running
 
 ```
 $ deno hi.ts
@@ -170,46 +213,6 @@ X-NF-Request-ID: 7cb5e5c1-27a3-41ef-a352-8bb94064f514-8384722
 
 ---
 
-求不要更新了，老子学不动了 (Issue #25)<br>
-https://github.com/denoland/deno/issues/25
-
-没钱用 肯定要学啊 不学就没有钱用 (Issue #27)<br>
-https://github.com/denoland/deno/issues/27
-
-your code very six !!! (Issue #31)<br>
-https://github.com/denoland/deno/issues/31
-
----
-
-Going from Go to Rust was proposed very early
-
-<small>
-Deno vs Node.js (Issue #11)<br>
-https://github.com/denoland/deno/issues/11
-
-拥抱GO 得永生 (Issue #34)<br>
-(translation: Embrace GO for eternal life)<br>
-https://github.com/denoland/deno/issues/34
-
-Suggestion: Look into porting to Rust and using Tokio (Issue #205)<br>
-(interesting discussion)
-https://github.com/denoland/deno/issues/205
-</small>
-
-
----
-
-求你们不要在学了 我跟不上了 我也不想学了<br>
-[translation: I don’t want to learn, I can’t keep up, I don’t want to learn.]
-
-Here is NOT the chatroom, behavior yourself!<br>
-请不要再灌水了，中国开发者的脸都被你们丢光了。<br>
-[translation: Please don't pour any more water. The faces of Chinese developers have been lost by you.]
-
-https://github.com/denoland/deno/issues/27<br>
-
----
-
 Deno Core
 
 https://github.com/denoland/deno <img alt="GitHub stars" src="https://img.shields.io/github/stars/denoland/deno.svg?style=social" class="stars" height="40" border="0">
@@ -249,20 +252,9 @@ Packages
 
 ---
 
-Creative feedback 
-
-"Will i like it ? no, i don't like it as i don't like you."
-
-<small>
-Please close this project for now. (Issue #53)<br>
-https://github.com/denoland/deno/issues/53
-</small>
-
----
-
 Deno vs ts-node
 
-My answer on Stack Overflow for details:
+See my answer on Stack Overflow for details:
 
 [deno vs ts-node : what's the difference](https://stackoverflow.com/questions/53428120/deno-vs-ts-node-whats-the-difference/55609763#55609763)
 
@@ -271,44 +263,6 @@ For even more details see:
 [node-ts-hello adventures](https://gist.github.com/rsp/f7d6aec4f2bbac3de4bc3f88d871cc70)
 
 Conclusion: Deno is 32x faster on startup for a simple example.
-
----
-
-???
-
-https://cnodejs.org/topic/5b0fb21b57137f22415c47c8
-
----
-
-![](deno-issue-53.png)
-
-<small>
-https://github.com/denoland/deno/issues/53
-</small>
-
----
-
----
-
-Alex Hultman, author of µWebSockets - https://github.com/uNetworking - gets banned
-
----
-
-# Installation<br>For the adventurous
-
-`curl -fsSL https://deno.land/x/install/install.sh | sh`
-
-`iwr https://deno.land/x/install/install.ps1 | iex`
-
-<small>
-The scripts above currently just scrape the GitHub releases page:<br>
-https://github.com/denoland/deno/releases
-</small>
-
----
-
-Suggestion: Look into porting to Rust and using Tokio (Issue #205)<br>
-https://github.com/denoland/deno/issues/205
 
 ---
 
@@ -322,7 +276,7 @@ Not ready for production yet
 
 ---
 
-Why it *WILL* get traction
+Why it *will* get traction
 
 1. Ryan Dahl (his previous project was and still is an amazing success)
 2. V8 (Google will promote it)
