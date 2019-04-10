@@ -305,7 +305,7 @@ Not ready for production yet
 
 Why it *will* get traction
 
-1. Ryan Dahl (his previous project was and still is an amazing success)
+1. Ryan Dahl (known for Node's amazing success)
 2. V8 (Google will promote it)
 3. TypeScript (Microsoft will promote it)
 4. Rust (Mozilla will promote it)
