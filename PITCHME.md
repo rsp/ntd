@@ -76,7 +76,17 @@ https://github.com/denoland/deno/releases
 
 ---
 
-# Deno vs ts-node
+# Running
+
+deno script.ts
+
+deno https://pocztarski.com/hi.ts
+
+---
+
+# Security
+
+deno --allow-write --allow-net script.ts
 
 ---
 
