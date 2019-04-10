@@ -21,11 +21,19 @@ built with V8 and ~~Go~~ Rust
 
 ---
 
+evented I/O for v8 javascript
+
+---
+
+A secure TypeScript runtime on V8
+
+---
+
 # Architecture
 
-Node = Server-side JS using V8 + libuv in C++
+Node = Server-side JS with V8 + libuv in C++
 
-Deno = Server-side TS using V8 + Tokio in Rust
+Deno = Server-side TS with V8 + Tokio in Rust
 
 ---
 
@@ -36,6 +44,133 @@ GitHub:
 Stack Overflow:
 - [Questions tagged 'node.js'](https://stackoverflow.com/questions/tagged/node.js): 270,111
 - [Questions tagged 'deno'](https://stackoverflow.com/questions/tagged/deno): 9
+
+---
+
+```
+$ cat hi.ts 
+
+import { hello } from 'https://pocztarski.com/hello.ts';
+
+hello();
+```
+
+---
+
+```
+$ deno hi.ts
+
+Compiling file:///Users/rsp/talks/deno/git/ntd/hi.ts
+Downloading https://pocztarski.com/hello.ts
+Uncaught Error: Unknown media type for: "https://pocztarski.com/hello.ts" ...
+```
+
+Ups...
+
+---
+
+Netlify - No fix
+
+<small>
+```
+$ curl https://pocztarski.com/hello.ts -I
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0, must-revalidate
+Content-Length: 63
+Content-Type: text/vnd.trolltech.linguist; charset=UTF-8
+Date: Wed, 10 Apr 2019 07:39:40 GMT
+Etag: "e23f2644d8d63e564ffcba8baa758bd3-ssl"
+Strict-Transport-Security: max-age=31536000
+Age: 767
+Connection: keep-alive
+Server: Netlify
+X-NF-Request-ID: 7cb5e5c1-27a3-41ef-a352-8bb94064f514-7650812
+```
+</small>
+
+---
+
+What is text/vnd.trolltech.linguist
+
+https://www.iana.org/assignments/media-types/text/vnd.trolltech.linguist
+
+links to:
+
+http://doc.trolltech.com/4.1/linguist-manual.html
+
+(domain parking)
+
+---
+
+# Netlify - Bad Fix
+
+(Not working!)
+
+```
+$ cat _headers
+
+/*.ts
+  Content-type: application/x-typescript
+```
+
+---
+
+# Deno Netlify Fix
+
+(Working!)
+
+```
+$ cat _headers 
+
+/*.ts
+  Content-Type: application/x-typescript
+```
+
+---
+
+Netlify - Headers with bad fix
+
+<small>
+```
+$ curl https://pocztarski.com/hello.ts -I
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0, must-revalidate
+Content-Length: 63
+Content-Type: text/vnd.trolltech.linguist; charset=UTF-8
+Content-Type: application/x-typescript
+Date: Wed, 10 Apr 2019 09:17:01 GMT
+Etag: "f9feb4d50402727c955be9cb95575ab5-ssl"
+Strict-Transport-Security: max-age=31536000
+Age: 2
+Connection: keep-alive
+Server: Netlify
+X-NF-Request-ID: 7cb5e5c1-27a3-41ef-a352-8bb94064f514-8367887
+```
+</small>
+
+---
+
+Netlify - Headers with good fix
+
+<small>
+```
+$ curl https://pocztarski.com/hello.ts -I
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0, must-revalidate
+Content-Length: 63
+Content-Type: application/x-typescript
+Date: Wed, 10 Apr 2019 09:19:06 GMT
+Etag: "59689ad05ef50b0455a56c758821512c-ssl"
+Strict-Transport-Security: max-age=31536000
+Age: 0
+Connection: keep-alive
+Server: Netlify
+X-NF-Request-ID: 7cb5e5c1-27a3-41ef-a352-8bb94064f514-8384722
+```
+</small>
 
 ---
 
